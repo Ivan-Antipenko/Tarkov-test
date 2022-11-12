@@ -1,0 +1,12 @@
+.top-section__cvalification-wrapper {
+    width: 327px;
+    background-color: $small-box-color;
+    border-radius: 3px;
+    padding: 8px 0 8px 0;
+}
+
+@media screen and (max-width: 321px) {
+    .top-section__cvalification-wrapper {
+      width: 300px;
+    }
+}

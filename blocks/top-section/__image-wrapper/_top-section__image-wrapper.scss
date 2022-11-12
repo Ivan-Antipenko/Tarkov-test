@@ -1,0 +1,13 @@
+.top-section__image-wrapper {
+    width: 540px;
+    height: 319px;
+    position: relative;
+}
+
+@media screen and (max-width: 321px) {
+    .top-section__image-wrapper {
+        width: 280px;
+        height: 119px;
+        margin-top: 20px;
+    }
+}

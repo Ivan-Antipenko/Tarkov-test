@@ -1,0 +1,13 @@
+.middle-section__text-box {
+    background-color: $small-box-color;
+    padding: 10px 25px 10px 25px;
+    width: 340px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 321px) {
+    .middle-section__text-box {
+        width: 300px;
+    }
+}

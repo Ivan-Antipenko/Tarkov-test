@@ -1,0 +1,13 @@
+.popup__close-img {
+   width: 20px;
+   fill: white;
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   cursor: pointer;
+   transition: .3s linear;
+}
+
+.popup__close-img:hover {
+  opacity: .6;
+}

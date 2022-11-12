@@ -1,0 +1,25 @@
+.middle-section__button {
+    width: 243px;
+    padding: 8px 32px 8px 32px;
+    background-color: inherit;
+    border: 2px $green solid;
+    border-color: $green;
+    color: $green;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 32px;
+    height: 48px;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: .2s ease-in-out;
+}
+
+.middle-section__button:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 321px) {
+    .middle-section__button {
+      margin: 15px auto;
+    }
+}

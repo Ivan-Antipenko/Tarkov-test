@@ -1,0 +1,24 @@
+.top-section__button {
+  background-color: $green;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 32px 8px 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 53px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.top-section__button:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 321px) {
+  .top-section__button {
+      margin-top: 20px;
+      width: 300px;
+    }
+}
