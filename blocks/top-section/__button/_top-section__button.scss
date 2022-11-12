@@ -16,6 +16,14 @@
   opacity: .7;
 }
 
+@media screen and (max-width: 426px) {
+  .top-section__button {
+      margin-top: 20px;
+      width: 400px;
+    }
+}
+
+
 @media screen and (max-width: 321px) {
   .top-section__button {
       margin-top: 20px;

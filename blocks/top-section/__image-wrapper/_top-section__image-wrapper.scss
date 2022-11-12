@@ -4,6 +4,14 @@
     position: relative;
 }
 
+@media screen and (max-width: 426px) {
+    .top-section__image-wrapper {
+        width: 400px;
+        height: 219px;
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .top-section__image-wrapper {
         width: 280px;

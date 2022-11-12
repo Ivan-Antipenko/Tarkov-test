@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 426px) {
+    .middle-section__text-box {
+        width: 400px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .middle-section__text-box {
         width: 300px;

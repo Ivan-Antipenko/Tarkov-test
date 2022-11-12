@@ -5,6 +5,13 @@
     gap: 41px;
 }
 
+@media screen and (max-width: 426px) {
+  .middle-section {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+}
+
 @media screen and (max-width: 321px) {
     .middle-section {
       flex-direction: column;

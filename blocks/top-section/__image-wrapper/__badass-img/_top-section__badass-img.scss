@@ -7,8 +7,14 @@
     left: 41px
 }
 
+@media screen and (max-width: 426px) {
+    .top-section__badass-img {
+        max-width: 360px;
+      }
+}
+
 @media screen and (max-width: 321px) {
     .top-section__badass-img {
         max-width: 240px;
       }
-  }
+}

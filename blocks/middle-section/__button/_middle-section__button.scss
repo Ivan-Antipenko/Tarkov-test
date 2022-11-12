@@ -18,6 +18,13 @@
     opacity: .7;
 }
 
+@media screen and (max-width: 426px) {
+    .middle-section__button {
+      margin: 15px auto;
+      width: 330px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .middle-section__button {
       margin: 15px auto;

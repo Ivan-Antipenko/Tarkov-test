@@ -5,6 +5,12 @@
     padding: 8px 0 8px 0;
 }
 
+@media screen and (max-width: 426px) {
+  .top-section__cvalification-wrapper {
+      width: 400px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .top-section__cvalification-wrapper {
       width: 300px;
