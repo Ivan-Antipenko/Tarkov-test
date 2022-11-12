@@ -5,3 +5,15 @@
     height: auto;
     transition: .3s linear;
 }
+
+@media screen and (max-width: 426px) {
+    .low-section__accordion {
+      width: 390px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .low-section__accordion {
+      width: 100%;
+    }
+}

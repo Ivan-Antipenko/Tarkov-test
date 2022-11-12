@@ -466,7 +466,7 @@ template {
 
 @media screen and (max-width: 426px) {
   .top-section__cvalification-wrapper {
-    width: 400px;
+    width: 395px;
   }
 }
 
@@ -674,7 +674,7 @@ template {
 
 @media screen and (max-width: 426px) {
   .middle-section__text-box {
-    width: 400px;
+    max-width: 400px;
   }
 }
 
@@ -748,7 +748,7 @@ template {
 @media screen and (max-width: 426px) {
   .middle-section__button {
     margin: 15px auto;
-    width: 330px;
+    max-width: 330px;
   }
 }
 
@@ -829,6 +829,18 @@ template {
   height: auto;
   -webkit-transition: .3s linear;
   transition: .3s linear;
+}
+
+@media screen and (max-width: 426px) {
+  .low-section__accordion {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .low-section__accordion {
+    width: 100%;
+  }
 }
 
 .low-section__accordion-button {
