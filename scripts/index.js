@@ -22,9 +22,6 @@ function changePopup() {
   }
 }
 
-
-
-
 button.addEventListener('click', () => {
   if (!content.classList.contains(isShow)) {
     content.classList.add(isShow)

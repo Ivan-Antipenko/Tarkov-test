@@ -6,3 +6,15 @@
     box-sizing: border-box;
     position: relative;
 }
+
+@media screen and (max-width: 426px) {
+    .popup {
+      max-width: 390px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .popup {
+      max-width: 300px;
+    }
+}
